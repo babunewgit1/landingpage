@@ -387,6 +387,7 @@ h6 {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #828281;
+  gap: var(--s);
 }
 
 .solution_tab_heading ul li {
@@ -405,6 +406,7 @@ h6 {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
+
 }
 
 .solution_tab_heading ul li:after {
@@ -630,7 +632,7 @@ h6 {
 }
 
 #work {
-  padding: var(--xxxl);
+  padding: var(--xxxl) 0px;
   background-color: #dfdfde;
 }
 /* -- work area end -- */
@@ -880,6 +882,7 @@ h6 {
 /* -- demo area start -- */
 #demo {
   background-color: #f4f4f3;
+  padding-bottom: var(--xxxl);
 }
 
 .demo_wrapper {
@@ -970,7 +973,7 @@ footer {
 
 .footer_social ul li {
   display: inline-block;
-  margin: var(--xs);
+  margin: 0px var(--xs);
 }
 
 .footer_social ul li img {
