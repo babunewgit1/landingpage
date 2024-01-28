@@ -644,7 +644,6 @@ Medium Screen - Others
 
   .logo_left {
     grid-template-columns: repeat(2, 1fr);
-    max-width: 290px;
   }
 
   .logo_right p {
@@ -780,5 +779,150 @@ Medium Screen - Others
   .globe_one_right p {
     color: #a3a3a1;
     font-size: 14px;
+  }
+
+  .work_heading h2 {
+    font-size: 32px;
+  }
+
+  .work_heading p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .work_img img {
+    max-width: 100%;
+  }
+
+  .drive_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .drive_left {
+    order: 2;
+    margin-top: var(--xl);
+  }
+
+  .drive_right {
+    order: 1;
+    height: inherit;
+    position: inherit;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .drive_right img {
+    position: inherit;
+    display: none;
+    height: inherit;
+    opacity: 1;
+    width: 100%;
+  }
+
+  .drive_right img#ss1 {
+    display: block !important;
+  }
+
+  .drive_left span {
+    font-size: 13px;
+  }
+
+  .drive_left h4 {
+    color: #1b1b1a;
+    font-size: 27px;
+  }
+
+  .drive_left p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .drive_item ul li.driveItemActive {
+    background-color: transparent;
+  }
+
+  .drive_item ul li:after,
+  .drive_item ul li.driveItemActive {
+    content: none !important;
+  }
+
+  .drive_item ul li:hover {
+    background-color: transparent;
+  }
+
+  .drive_item ul li {
+    font-size: 14px;
+    line-height: 133%;
+  }
+
+  .drive_item ul li img {
+    display: none;
+  }
+
+  .drive_item ul li {
+    position: relative;
+  }
+
+  .drive_item ul li {
+    background-image: url(../img/check.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 22px;
+    background-position: left 12px top 9px;
+    padding-left: 40px;
+  }
+
+  .driveFour {
+    padding-bottom: 120px !important;
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0% 100%);
+  }
+
+  #testimonial {
+    padding-top: 145px;
+  }
+
+  .testimonial_wrapper p {
+    font-size: 19px;
+    line-height: 160%;
+  }
+
+  .testiman_right h4 {
+    font-size: 16px;
+  }
+
+  .testiman_right p {
+    font-size: 16px;
+    margin-left: -30px;
+  }
+
+  .demo_wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .demo_left img {
+    max-width: 460px;
+    margin: auto;
+  }
+
+  .demo_right {
+    max-width: 440px;
+    margin: auto;
+  }
+
+  .demo_right h2 {
+    font-size: 32px;
+  }
+
+  .demo_right p {
+    font-size: 14px;
+    line-height: 160%;
+  }
+
+  .demo_wrapper {
+    padding-top: 180px;
+    padding-bottom: 70px;
+  }
+
+  .demo_wrapper {
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
   }
 }
