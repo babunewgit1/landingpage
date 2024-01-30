@@ -20,6 +20,7 @@ body {
   font-weight: 400;
   background: #fff;
   color: #1b1b1a;
+  overflow-x: hidden;
 }
 
 * {
@@ -300,8 +301,9 @@ h6 {
   width: 100%;
 }
 
-#hero {
-  padding-top: var(--l);
+.hero_section {
+  padding-top: calc(10px + var(--l));
+  margin-top: -10px;
 }
 /* -- hero area end -- */
 
@@ -650,7 +652,7 @@ h6 {
 }
 
 .drive_right img {
-  display: block;
+  display: none !important;
   width: 100%;
 }
 
@@ -765,22 +767,8 @@ h6 {
   padding-top: 16px;
 }
 
-.drive_right {
-  position: relative;
-  height: 450px;
-}
-
-.drive_right img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 450px;
-  opacity: 0;
-  transition: all 0.8s ease;
-}
-
 .drive_right img.driveImgActive {
-  opacity: 1 !important;
+  display: block;
 }
 
 .driveTwo .drive_right,
@@ -1028,6 +1016,10 @@ footer {
 .sticky .header_link ul li:first-child a:hover {
   color: #fff;
   border-color: #fff;
+}
+
+.drive_right img.driveImgActive {
+  display: block !important;
 }
 
 /* -- footer area end -- */
